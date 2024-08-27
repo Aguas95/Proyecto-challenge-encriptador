@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Challenge Encriptador HCA</title>
+</head><body>
+    <header>
+        <a href="https://www.aluracursos.com/promo/AprendeConAluraLatam?utm_source=google&utm_medium=cpc&utm_campaign=AL_PRF_Search_Institucional&gad_source=1&gclid=EAIaIQobChMIs_zQwq2UiAMV_HF_AB3WygqiEAAYASAAEgIoNPD_BwE" rel="">
+            <img class="logo" src="./assets/logo.svg" alt="Logo Alura" >
+        </a>    
+    </header>
+    <main>
+        <section class="encriptador">
+            <textarea class="areaTexto" placeholder="Aqui escribe el texto a encriptar ;P"></textarea>
+            <div class="alertaDeEncripcion">
+                <p class="textoAlerta">ESCRIBE EN MINUSCULAS, SIN ACENTOS NI CARACTERES ESPECIALES</p>
+            </div>
+            <div class="BotonesEncriptar">
+                <button class="botonEncript" type="submit" >¡Encriptar!</button>
+                <button class="botonDesencptr" type="submit" >¡Desencriptar!</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+           <div class="cajaDeResultado">
+                <img class="img" src="./assets/muñeco.svg" alt="Imagen de un muñeco" >
+                <p class="texto_avisar">:( Aun no has encriptado nada </p>
+                <p class="text_amigos">Escribe el texto en el cuadro del encriptador y lo veras aqui</p>
+           </div>
+           <textarea class="result" type="mensaje"  readonly></textarea>
+           <button class="botonCopiar" type="submit" >Copiar</button>
+         </section>  
+    </main>
+
+
+    <footer>
+        <p class="pie"> <strong>Alura</strong><strong class="a"> X</strong><strong class="b"> Heriberto Conde Aguas</strong> </p>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
